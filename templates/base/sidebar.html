@@ -1,0 +1,30 @@
+<aside class="column is-2">{% load static %}
+    <div class="menu card" style="padding-left: 10px;">
+        <p class="menu-label">主面板</p>
+        <ul class="menu-list collapse">
+            <li>
+                <a href="{% url 'dashboard' %}">
+                    <i class="fa fa-desktop"></i>
+                    <span>dashboard</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="{% url 'asset_list' %}">
+                    <i class="fa fa-desktop"></i>
+                    <span>主机资产</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <i class="fa fa-desktop"></i>
+                    <span>项目</span>
+                </a>
+            </li>
+
+        </ul>
+    </div>
+</aside>
+
+

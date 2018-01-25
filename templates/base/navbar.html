@@ -1,0 +1,47 @@
+{% load static %}
+
+<nav class="navbar is-transparent has-shadow" style="margin-bottom: 0.8rem">
+    <div class="navbar-brand">
+        <a class="navbar-item logo" href="#">
+            <img id="logoimg" src="{% static 'img/cmdb_logo_close.png' %}" alt="CMDB" width="112" height="28">
+        </a>
+        <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <div id="navbarExampleTransparentExample" class="navbar-menu">
+        <div class="navbar-start">
+            <a class="navbar-item" href="#">
+                Home
+            </a>
+        </div>
+
+        <div class="navbar-end">
+            <div class="navbar-item">
+                <div class="field is-grouped">
+                    <p class="control">
+                        <a class="bd-tw-button button" href="#">
+              <span class="icon">
+                <i class="fa fa-twitter"></i>
+              </span>
+                            <span>
+                Tweet
+              </span>
+                        </a>
+                    </p>
+                    <p class="control">
+                        <a class="button is-primary" href="#">
+              <span class="icon">
+                <i class="fa fa-download"></i>
+              </span>
+                            <span>下载</span>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
