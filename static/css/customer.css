@@ -1,0 +1,28 @@
+html {
+    background: #eee;
+}
+
+.has-shadow {
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1)
+}
+
+ul li a i.fa {
+    margin-right: 0.3rem !important;
+    color: #4ae387;
+}
+
+.menu.card {
+    box-shadow: 0 8px 14.72px 1.28px rgba(101, 169, 119, 0.3);
+}
+
+aside.column.is-2 {
+    display: none;
+}
+
+.margin-bottom-1rem {
+    margin-bottom: 1rem !important;
+
+}
+.tags .tag:hover {
+    cursor: pointer !important;
+}
